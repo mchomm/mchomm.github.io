@@ -1,2 +1,2 @@
-# personal_website
-Personal website for Max Homm 
+# Code from Max Homm's personal website
+
