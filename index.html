@@ -12,66 +12,126 @@
     <link rel="shortcut icon", href="images/faceshot1.JPEG", type = "image/x-icon", sizes="4x4"/>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/faceshot1.JPEG" alt="logo" width="75" height="100">
-                </a>
-            </div>
-            <div class="main-menu">
-                <ul>
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Publications</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Posters</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-dark" href="#">
-                           <i class="fas fa-user"></i> Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="#about">
+          <img src="images/faceshot1.JPEG" alt="logo" width="75" height="100">
+        </a>
+      </div>
+      <div class="main-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#posters">Posters</a></li>
+          <li>
+            <a class="btn btn-dark" href="#contact">
+              <i class="fas fa-user"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 
 <!-- About -->
-<section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <h1 class="hero-heading text-xxl">About Max Homm</h1>
-        <p class="hero-text">Education</p>
-        <div class="education-info">
-          <h3>Honours BSc in Biology</h3>
-          <p>University of Waterloo, 2020–2025</p>
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <h1 class="about-heading">About Me</h1>
+        <div class="intro-box">
+          <p>
+            My name is Max Homm, and I'm currently a graduate student at the University of Waterloo, Ontario, Canada. 
+            I'm very interested in the intersections between bioinformatics, biostatistics, and deep learning. I also have
+            over 2 years of bioinformatics and software development experience. 
+          </p>
+        </div>
+      <div class="section education">
+        <h2>Education</h2>
+        <div class="entry">
+          <h3>Master of Mathematics, Computer Science</h3>
+          <p class="institution">University of Waterloo, 2025–2027</p>
+          <ul class="supervisor-list">
+            <li>Supervised by:
+              <ul>
+                <li><a href="https://doxeylab.org/" target="_blank" rel="noopener noreferrer">Dr. Andrew Doxey</a></li>
+                <li><a href="https://aghodsib.github.io/" target="_blank" rel="noopener noreferrer">Dr. Ali Ghodsi</a></li>
+              </ul>
+            </li>
+          </ul>                  
+        </div>
+        <div class="entry">
+          <h3>Bachelor of Science, Honours Biology, Co-op</h3>
+          <p class="institution">University of Waterloo, 2020–2025</p>
           <ul>
-            <li>Co-op</li>
             <li>Minor in Computing</li>
-          </ul>
-
-          <h3>Master's of Mathematics (MMath) in Computer Science</h3>
-          <p>University of Waterloo, 2025–2027</p>
-  
-          <h3>Experience</h3>
-          <ul>
-            <li>University of Waterloo – Doxey Lab</li>
-            <li>Ontario Institute for Cancer Research (OICR) – Bioinformatics Software Developer </li>
-            <li>Ceragen – Bioinformatics Assistant</li>
+            <li>Focus in Molecular Genetics</li>
           </ul>
         </div>
       </div>
-      <div class="hero-background"></div>
+
+      <div class="section experience">
+        <h2>Experience</h2>
+      
+
+        <div class="entry">
+          <h3>Doxey Lab</h3>
+          <p class="institution">University of Waterloo</p>
+          <p class="date">Spring 2025</p>
+          <ul>
+            <li>Graduate Researcher in bioinformatics and deep learning.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <h3>Doxey Lab</h3>
+          <p class="institution">University of Waterloo</p>
+          <p class="date">Spring 2024</p>
+          <ul>
+            <li>Co-op placement #5</li>
+            <li>Graduate Researcher in bioinformatics and deep learning.</li>
+          </ul>
+        </div>
+      
+        <div class="entry">
+          <h3>Bioinformatics Software Developer</h3>
+          <p class="institution">Ontario Institute for Cancer Research (OICR)</p>
+          <p class="date">Winter 2024</p>
+          <ul>
+            <li>Developed software for biomarker discovery and validation.</li>
+          </ul>
+        </div>
+      
+        <div class="entry">
+          <h3>Bioinformatics Assistant</h3>
+          <p class="institution">Ceragen</p>
+          <p class="date">Spring 2023</p>
+          <ul>
+            <li>Assisted in plant-growth-promoting genome analysis and generated data processing pipelines.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <h3>Laboratory Research Assistant</h3>
+          <p class="institution">Ceragen</p>
+          <p class="date">Fall 2022</p>
+          <ul>
+            <li>Assisted in plant-growth-promoting genome analysis and generated data processing pipelines.</li>
+          </ul>
+        </div>
+      
+      </div>
+      
     </div>
-  </section>
+
+    <div class="about-background"></div>
+  </div>
+</section>
   
 
 <!-- Publications Section -->
-<section class="video bg-black">
+<section id="publications" class="video bg-black">
     <div class="container-sm">
       <h1 class="hero-heading text-xxl text-center">
         Publications
@@ -97,23 +157,41 @@
   </section>
     
 <!-- Poster Presentations -->
-<section class="hero">
-    <div class="container">
-      <div class="gallery-content">
-        <h1 class="gallery-heading text-xxl">Poster Presentations</h1>
-      </div>
-      <div class="gallery-background"></div>
+<section id="posters" class="hero">
+  <div class="container">
+    <div class="gallery-content">
+      <h1 class="gallery-heading text-xxl text-center">Poster Presentations</h1>
     </div>
-  
-    <div class="poster-content">
-      <h3 class="hero-text text-md">BIOL 499 Poster Presentation</h3>
-      <div class="poster-button">
-        <a href="images/499_poster_final.pdf" class="btn btn-primary" target="_blank" rel="noopener">
-          View Poster
-        </a>
-      </div>
+    <div class="gallery-background"></div>
+  </div>
+
+  <div class="poster-content">
+    <h3 class="hero-text text-md">BIOL 499 Poster Presentation</h3>
+    <div class="poster-button">
+      <a href="images/499_poster_final.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+        View Poster
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="video bg-black">
+  <div class="container-sm">
+    <h1 class="contact-heading text-xxl text-center">
+      Contact
+    </h1>
+    <div class="contact-content text-center">
+      <p class="contact-text text-md">
+        Feel free to reach out via email:
+      </p>
+      <a href="mailto:mchomm@uwaterloo.ca" class="btn btn-primary">
+        mchomm@uwaterloo.ca
+      </a>
+    </div>
+  </div>
+</section>
+
 
     <script src="js/main.js"></script>
 </body>
